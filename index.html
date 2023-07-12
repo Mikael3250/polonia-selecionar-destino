@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Destino a Polonia</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/estilos.css">
+  <link rel="stylesheet" href="./src/css/responsivo.css">
+  <link rel="icon" href="./src/imagens/icon.png">
+</head>
+<body>
+  <header class="cabecalho">
+    <img class="logo" src="./src/imagens/logo.png" alt="Logo"> <img class="logo" src="./src/imagens/Poland flag-XL-anim.gif" alt="Logo">
+  </header>
+  <main class="selecao-de-personagens">
+    <section class="personagens">
+      <h1 class="titulo">Selecione um destino</h1>
+      <ul class="lista-de-personagens">
+        <li class="personagem selecionado" id="varsovia" data-name="Varsóvia" data-description="Varsóvia é a capital e maior cidade da Polônia, conhecida por sua rica história, arquitetura diversificada e resiliência após a devastação da Segunda Guerra Mundial.">
+          <img src="./src/imagens/card-varsovia.png" alt="varsovia" />
+        </li>
+        <li class="personagem" id="cracovia" data-name="Cracóvia"
+          data-description="Cracóvia, cidade mágica da Polônia, revela sua rica história, arquitetura deslumbrante e alma cultural vibrante.">
+          <img src="./src/imagens/card-cracovia.png" alt="cracovia" />
+        </li>
+
+        <li class="personagem" id="poznan" data-name="Poznań"
+          data-description="Combina história com uma atmosfera moderna, atraindo visitantes com sua cultura cativante e arquitetura encantadora. Seu centro histórico preservado e animada vida urbana fazem de Poznań um destino imperdível.">
+          <img src="./src/imagens/card-poznan.png" alt="Personagem Lince Negra" />
+        </li>
+
+        <li class="personagem" id="breslavia" data-name="Breslávia"
+          data-description="Cidade polonesa com um passado fascinante e uma energia contemporânea, combina arquitetura impressionante, cultura vibrante e uma cena gastronômica diversificada.">
+          <img src="./src/imagens/card-breslavia.png" alt="Personagem Tempestade" />
+        </li>
+      </ul>
+    </section>
+    <section class="personagem-selecionado">
+      <img class="personagem-grande" src="./src/imagens/varsovia.png" alt="Personagem Selecionado" />
+
+      <div class="informacoes-personagem">
+        <h2 class="nome-personagem" id="nome-personagem">Varsóvia</h2>
+        <p class="descricao-personagem" id="descricao-personagem">
+          Varsóvia é a capital e maior cidade da Polônia, conhecida por sua rica história, arquitetura diversificada e resiliência após a devastação da Segunda Guerra Mundial.
+        </p>
+      </div>
+    </section>
+  </main>
+  <script src="./src/js/index.js"></script>
+</body>
+</html>
